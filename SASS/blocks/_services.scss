@@ -1,0 +1,44 @@
+.services{
+    background-color: $white;
+
+    &__inner{
+        margin: auto auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__items{
+        margin:150px 0 150px 0;
+    }
+
+    &__title{
+        @include H1;
+        text-transform: uppercase;
+        color: $grey;
+        margin-bottom: 10px;
+    }
+
+    &__item{
+        margin-top: 50px;
+
+        &-title{
+            @include H2;
+            color: $black;
+        }
+
+        &-descr{
+            @include px14;
+            color: $black;
+            margin-top: 15px;
+        }
+    }
+
+    &__pic{
+        max-width: 600px;
+        width: 100%;
+        max-height: 670px;
+        height: 100%;
+        margin-left: 89px;
+        margin-top: 243px;
+    }
+}

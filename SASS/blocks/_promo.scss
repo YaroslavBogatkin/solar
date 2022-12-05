@@ -1,0 +1,72 @@
+.promo{
+    max-width: 1921px;
+    width: 100%;
+    background-image: url('../../images/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -310px;
+
+    &__inner{
+        padding: 77px 0 18px 0;
+        text-align: center;
+        
+    }
+
+    &__logo{
+        width: 180px;
+        height: 25px;
+    }
+
+    &__ontitle{
+        font-family:'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: $white;
+        margin-top: 161px;
+    }
+
+    &__title{
+        font-family:'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 87px;
+        font-variant: small-caps;
+        color: $white;
+    }
+
+    &__subtitle{
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 57px;
+        color: $white;
+    }
+
+    &__link{
+        display: block;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: $white;
+        text-decoration: none;
+        padding-top: 110px;
+        &:hover{
+            color: $hover;
+        }
+    }
+
+    &__social{
+        margin-top: 266px;
+        &-logo{
+            margin-right: 24px;
+        }
+    }
+
+
+}

@@ -1,0 +1,46 @@
+.steps{
+    background-color: $white;
+
+    &__inner{
+        margin-top: 182px;
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title{
+        max-width: 324px;
+        @include H1;
+        color:$grey; 
+        margin-bottom: 60px;  
+    }
+
+    &__items{
+        max-width: 510px;
+    }
+
+    &__item{
+        margin-top: 30px;
+
+        &-number{
+            @include px14;
+            color: $grey;
+        }
+
+        &-title{
+            @include H2;
+            color:$black;
+            margin-top: 11px;
+        }
+
+        &-descr{
+            @include px14;
+            color:$black;
+        }
+
+    }
+
+
+}
